@@ -1,0 +1,138 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+} 
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    opacity: 1;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 69px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+main * {
+    opacity: 0.9;
+}
+
+section {
+    margin-top: 25px;
+}
+
+nav {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+nav a{
+    font-size: 22px;
+    margin: auto 5px;
+}
+
+#mission {
+    display: flex;
+    height: 700px;
+    max-width: 1200px;
+    background-image: url(./images/img-mission-background.jpg);
+    background-position: center;
+    align-items: center;
+}
+
+#mission-text {
+    width: 100%;
+    background-color: black;
+}
+
+.featured-card-container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.featured-card-container figure {
+    margin: 10px;
+}
+
+figure img {
+    width: 300px;
+    height: 200px; 
+}
+
+figcaption {
+    padding-top: 10px;
+    font-size: 1.2em ;
+}
+
+#locations {
+    height: 500px;
+    background-image: url(images/img-locations-background.jpg);
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+
+}
+
+.location-card {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.location-card p {
+    padding: 10px 0;
+}
+
+#contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.3em
+}
